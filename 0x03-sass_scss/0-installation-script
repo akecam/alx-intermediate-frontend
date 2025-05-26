@@ -1,0 +1,11 @@
+# Installed nvm 
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+
+# Install node version 20.16
+nvm install 20.16
+
+# Used the node version
+nvm use 20.16
+
+# Install sass -v 3.7.4
+npm install sass -v 3.7.4
