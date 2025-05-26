@@ -1,0 +1,17 @@
+@mixin margin_assign($element: body) {
+    @if $element == body {
+        margin-left: 10px;
+        margin-right: 10px;
+    } @else {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}
+
+body {
+    @include margin_assign(body)
+}
+
+div {
+    @include margin_assign(div)
+}
